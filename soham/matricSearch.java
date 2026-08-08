@@ -11,11 +11,11 @@ public class matricSearch{
             {13,14,15,16}
         };
         int target = 10;
-        int[] result = new matricSearch().Search(matrix, target);
+        int[] result = Search(matrix, target);
         System.out.println("Element found at: " + result[0] + ", " + result[1]);
 
     }
-    private int[] Search(int [][] matrix, int target){
+    private static int[] Search(int [][] matrix, int target){
         int row = 0;
         int col = matrix[0].length -1;
         while(row < matrix.length && col >=0){
