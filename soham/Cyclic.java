@@ -15,8 +15,7 @@ public class Cyclic {
                 int temp = arr[i];
                 arr[i]= arr[temp-1];
                 arr[temp-1] = temp;
-            }
-            if(arr[i] == i+1){
+            }else{
                 i++;
             }
 
