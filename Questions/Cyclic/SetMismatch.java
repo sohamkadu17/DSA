@@ -14,9 +14,9 @@ public class SetMismatch {
         int i = 0;
         int[] ans = new int[2];
         while(i<nums.length){
-             if(nums[idx] != idx+1){
-                ans[0] = nums[idx];
-                ans[1] = idx+1;
+             if(nums[i] != i+1){
+                ans[0] = nums[i];
+                ans[1] = i+1;
                 return ans;
             }
             int correct = nums[i]-1;
