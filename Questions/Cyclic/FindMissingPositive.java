@@ -1,9 +1,10 @@
 package Questions.Cyclic;
-
+// asked in amazon 
+// https://leetcode.com/problems/first-missing-positive/description/
 
 public class FindMissingPositive {
     public static void main(String[] args) {
-        int[] arr = {3,2,2};
+        int[] arr = {3,4,-1,1};
         int ans =firstMissingPositive(arr);
         System.out.println("the ans is : "+ ans);
     }
