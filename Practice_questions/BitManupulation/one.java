@@ -22,7 +22,10 @@ public class one {
 
         return num & bit;
     }
+    
 
+
+    // Question WAP to give the number that doesnt occure 3 times in the array;
 
     public static void main(String[] args){
         // Tell if the binary number is even or odd;
