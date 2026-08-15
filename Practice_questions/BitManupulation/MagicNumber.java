@@ -1,5 +1,9 @@
 package Practice_questions.BitManupulation;
 
+
+//  asked in Amazon
+
+
 public class MagicNumber {
 
 
