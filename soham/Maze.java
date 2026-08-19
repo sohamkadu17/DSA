@@ -19,6 +19,8 @@ public class Maze {
         return right +left;
     }
 
+    //  create for diagonal path
+
     private static void path(String p ,int r , int c){
         if( r==1 && c ==1){
             System.out.println(p);

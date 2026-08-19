@@ -9,7 +9,7 @@ public class ObsMaze {
                 };
 
             pathObs("",matrix,0,0);
-                
+        
         
     }
 
