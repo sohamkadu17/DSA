@@ -5,7 +5,9 @@ import java.util.HashSet;
 
 public class Hash {
     // Tree map and map are snot implemented so do check that ;
-    
+    // Hash map vs Hash Table ;
+    // hash map is not syncronized and Hashset is syncronized Therefore it is thread safe and Hashmap is not;
+    // https://www.geeksforgeeks.org/java/differences-between-hashmap-and-hashtable-in-java/
 
     public static void main(String[] args){
         HashMap<String,Integer> map = new HashMap<>();
