@@ -56,8 +56,7 @@ import java.util.Scanner;
 
 
 public class CatRat {
-    
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n  = sc.nextInt();
 
@@ -74,7 +73,6 @@ public class CatRat {
         for (int i = 2; i <= n - 1; i++) {
             sb.append(i).append(" ");
         }
-
         // Phase 2: Backward sweep from tunnel n - 1 down to 2
         for (int i = n - 1; i >= 2; i--) {
             sb.append(i);
@@ -82,7 +80,6 @@ public class CatRat {
                 sb.append(" ");
             }
         }
-
         System.out.println(sb.toString());
     }
 }

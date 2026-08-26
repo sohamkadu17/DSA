@@ -9,6 +9,8 @@ public class Curse {
     private static int maxStates;
     private static int[] pow3;
 
+
+    
     public static void main(String[] args) throws IOException {
         FastScanner scanner = new FastScanner(System.in);
         FastOutput output = new FastOutput(System.out);
