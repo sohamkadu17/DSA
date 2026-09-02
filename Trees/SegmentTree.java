@@ -55,7 +55,7 @@ public class SegmentTree {
     private void display(Node node) {
         String str = "";
         if (node.left != null) {
-            str = str + "interval=[" + node.left.startInterval + "-" + node.left.endInterval + "] and data = " + node.left.value + "+ ->";
+            str = str + "interval=[" + node.left.startInterval + "-" + node.left.endInterval + "] and data = " + node.left.value + " +->";
         } else {
             str = str + "No left child ";
         }
